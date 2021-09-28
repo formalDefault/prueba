@@ -7,9 +7,8 @@ const prospectoSchema = new Schema({
     nombreNegocio: {type: String, require: true, default: ''},
     telefono: {type: SchemaTypes.Long, require: true, default: ''},
     direccion: {type: String, require: true, default: ''},
-    primeraLlamada: {type: Date, require: true, default: Date.now},
-    segundaLlamada: {type: Date, default: null},
-    recordatorios: {type: String, default: ''}, 
+    estado: {type: String, require: true, default: 'sin llamar'},
+    primeraLlamada: {type: Date, require: true, default: ''}
 
 })
  

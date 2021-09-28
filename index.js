@@ -18,5 +18,5 @@ app.use('/api/system', require('./routes/api-routes'));
 
 //star server 
 app.listen(app.get('port'), () => {
-    console.log(`servidor ${app.get('port')} iniciado`);
+    console.log(`servidor backend ${app.get('port')} iniciado`);
 }); 
